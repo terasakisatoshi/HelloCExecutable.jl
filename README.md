@@ -1,5 +1,10 @@
 # HelloCExecutable.jll
-Test out HelloCExecutable_jll.jl
+
+![CI](https://github.com/terasakisatoshi/HelloCExecutable.jl/workflows/CI/badge.svg?branch=main)
+
+# Overview
+
+- This repository will test out HelloCExecutable_jll.jl
 
 # Usage
 
@@ -37,5 +42,11 @@ julia> using HelloCExecutable_jll
 julia> HelloCExecutable_jll.hello_world() do exe
            run(`$exe`)
        end
+Hello, Goma!
+julia> # Also
+
+julia> using HelloCExecutable
+
+julia> hello_world()
 Hello, Goma!
 ```
