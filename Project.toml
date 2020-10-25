@@ -1,0 +1,13 @@
+name = "HelloCExecutable"
+uuid = "ba0aa4b7-6b23-4c78-bbae-81a852699a53"
+authors = ["Satoshi Terasaki <terasakisatoshi.math@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+HelloCExecutable_jll = "58f04f38-d89e-574d-ac21-80cb6e819e9f"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
